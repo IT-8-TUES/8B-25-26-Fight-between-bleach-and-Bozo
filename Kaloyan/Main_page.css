@@ -1,0 +1,209 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#000000, #6d1d76 90%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 10px;
+  height: 75%;
+  width: 75%;
+  background-color: #555555;
+  color: #ffffff;
+}
+
+.musicButton {
+    padding: 4% 5%;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    height: 75%;
+    width: 75%;
+}
+
+#popButton {
+    background-color: #ff4dc1;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px #ff4dc1;
+    color: #000000;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#electroButton {
+    background-color: #77ee32;
+    font-size: 20px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: 0px 0px 10px #77ee32;
+    color: #000000;
+}
+
+#metalButton {
+    background-color: #5567ec;
+    font-size: 20px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: 0px 0px 10px #5567ec;
+    color: #000000;
+}
+
+#rapButton {
+    background-color: #ca0000;
+    font-size: 20px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: 0px 0px 10px #ca0000;
+    color: #000000;
+}
+
+#jazzButton {
+    background-color: #ffc227;
+    font-size: 20px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: 0px 0px 10px #ffc227;
+    color: #000000;
+}
+
+#classicalButton {
+    background-color: #8b530a;
+    font-size: 20px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: 0px 0px 10px #8b530a;
+    color: #000000;
+}
+
+.musicButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150vh;
+    height: 75vh;
+    gap: 50px;
+    margin-bottom: 5%;
+    margin-top: 2.5%;
+}
+
+#popButton.hoveredButton {
+    background-image: url(Machkan_chesun.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 50px;
+    color: #ff4dc1;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    text-shadow: 0px 0px 5px #000000;
+    height: 90%;
+    width: 90%;
+    box-shadow: 0px 0px 10px #000000;
+}
+
+#metalButton.hoveredButton {
+    background-image: url(Metallica.jpg);
+    background-size: cover;
+    font-size: 50px;
+    color: #5567ec;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    text-shadow: 0px 0px 5px #000000;
+    background-position: center;
+    height: 90%;
+    width: 90%;
+    box-shadow: 0px 0px 10px #000000;
+}
+
+#electroButton.hoveredButton {
+    background-image: url(electro.png);
+    background-size: cover;
+    background-position: center;
+    font-size: 50px;
+    color: #77ee32;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    text-shadow: 0px 0px 5px #000000;
+    height: 90%;
+    width: 90%;
+    box-shadow: 0px 0px 10px #000000;
+}
+
+#rapButton.hoveredButton {
+    background-image: url(rap.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 50px;
+    color: #ca0000;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    text-shadow: 0px 0px 5px #000000;
+    height: 90%;
+    width: 90%;
+    box-shadow: 0px 0px 10px #000000;
+}
+
+#classicalButton.hoveredButton {
+    background-image: url(classical_music.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 50px;
+    color: #8b530a;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    text-shadow: 0px 0px 5px #000000;
+    height: 90%;
+    width: 90%;
+    box-shadow: 0px 0px 10px #000000;
+}
+
+#jazzButton.hoveredButton {
+    background-image: url(jazz.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 50px;
+    color: #ffc227;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    text-shadow: 0px 0px 5px #000000;
+    height: 90%;
+    width: 90%;
+    box-shadow: 0px 0px 10px #000000;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 25vh;
+    background-color: #333333;
+}
+
+.aboutButton {
+    padding: 10px 20px;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
